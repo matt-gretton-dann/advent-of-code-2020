@@ -7,7 +7,7 @@ Each Puzzle lies in its own directory named `puzzle-<day>-<number>`.
 
 The solutions are authored by Matthew Gretton-Dann, and Copyright 2020, Matthew Gretton-Dann
 
-## Build and Run
+## Building
 
 The build system uses CMake:
 
@@ -23,5 +23,30 @@ To run each puzzle then do:
 ```sh
 DAY=01
 PUZZLE=01
-./build/puzzle-${DAY}-${PUZZLE}/puzzle-${DAY}-${PUZZLE} < puzzle-${DAY}-${PUZZLE}/input.txt
+INPUT=input1.txt
+./driver.sh $DAY $PUZZLE $INPUT
 ```
+
+## Sources
+
+All code is written in C++.
+
+### Directory Layout
+
+Each puzzle is in a self-contained directory `puzzle-DAY-NUMBER`.  
+
+Within the directory there are the following files:
+
+ * Mandatory: `CMakeLists.txt` which contains the build instructions.  Executable should be called
+   `puzzle-DAY-NUMBER`.  See below for the expected command-line interface.
+ * Optional: `example.txt`.  The example given in the problem description
+ * Optional: `driver.sh`.  Driver program to use if you can't just call the executable.
+ * Optional: `*.cc`: C++ sources.
+
+### Command Line Interface
+
+The executable command line interface should just take the input in on standard-input and print its
+result on standard-output.
+
+If this is not possible the script `driver.sh` within the directory should be provided (and made
+executable).  It should take two arguments - the executable to run and the input file to use.
