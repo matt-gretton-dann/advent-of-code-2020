@@ -37,6 +37,6 @@ int main(int argc, char **argv) {
     count += (rotated[0] == '#');
   }
 
-  std::cout << "Number of trees: " << count << "\n";
+  std::cout << count << "\n";
   return 0;
 }
