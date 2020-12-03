@@ -5,7 +5,7 @@ Advent puzzles.  All solutions are written in C++.
 
 Each Puzzle lies in its own directory named `puzzle-<day>-<number>`.
 
-The solutions are authored by Matthew Gretton-Dann, and Copyright 2020, Matthew Gretton-Dann
+The solutions are authored by Matthew Gretton-Dann, and Copyright 2020, Matthew Gretton-Dann.  Licensed under Apache 2.0 - see [license](./LICENSE)
 
 ## Building
 
