@@ -1,11 +1,13 @@
 # C++ Solutions to Advent of Code 2020
 
 This repository contains solutions to the [Advent of Code 2020](https://adventofcode.com/2020)
-Advent puzzles.  All solutions are written in C++.
+Advent puzzles.  All solutions are written in C++.  The solutions aren't designed to be nice or
+pretty.  Instead I am using it as an experiment in understanding how I approach solving
+problems.
 
 Each Puzzle lies in its own directory named `puzzle-<day>-<number>`.
 
-The solutions are authored by Matthew Gretton-Dann, and Copyright 2020, Matthew Gretton-Dann.  Licensed under Apache 2.0 - see [license](./LICENSE)
+The solutions are authored by Matthew Gretton-Dann, and Copyright 2020, Matthew Gretton-Dann.  Licensed under Apache 2.0 - see [license](./LICENSE).
 
 ## Building
 
