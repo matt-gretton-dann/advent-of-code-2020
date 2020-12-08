@@ -119,8 +119,8 @@ struct VM {
                     << "\n";
           return;
         }
+        instrs_[pos].flip_jmp();
       }
-      instrs_[pos].flip_jmp();
     }
   }
 
