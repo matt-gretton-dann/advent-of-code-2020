@@ -38,7 +38,8 @@ template <std::size_t L> struct Buffer {
     }
     std::cout << "sum_begin = " << sum_begin << " sum_end = " << sum_end
               << "\n";
-    std::vector vec(buf_.begin() + sum_begin, buf_.begin() + sum_end);
+    std::vector<unsigned long> vec(buf_.begin() + sum_begin,
+                                   buf_.begin() + sum_end);
     std::sort(vec.begin(), vec.end());
     return vec[0] + vec[vec.size() - 1];
   }

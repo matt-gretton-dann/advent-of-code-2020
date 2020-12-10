@@ -25,6 +25,8 @@ struct Instruction {
     case Opcode::Nop:
       op_ = Opcode::Jmp;
       return true;
+    default:
+      assert(false);
     }
   }
 
