@@ -1,6 +1,7 @@
 #include <algorithm>
 #include <array>
 #include <cassert>
+#include <climits>
 #include <iostream>
 #include <list>
 #include <map>
