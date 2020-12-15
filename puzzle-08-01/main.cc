@@ -26,6 +26,7 @@ private:
       return Opcode::Nop;
     } else {
       assert(false);
+      return Opcode::Nop;
     }
   }
 
