@@ -6,8 +6,9 @@
 #include <map>
 #include <regex>
 #include <string>
+#include <unordered_map>
 
-using NumMap = std::map<int, int>;
+using NumMap = std::unordered_map<int, int>;
 
 int add_to_map(NumMap &nums, int num, int turn) {
   auto [it, success] = nums.insert({num, turn});
