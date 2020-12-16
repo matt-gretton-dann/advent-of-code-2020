@@ -1,5 +1,5 @@
 project(advent-of-code-2020)
-cmake_minimum_required(VERSION 3.19)
+cmake_minimum_required(VERSION 3.15)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -36,3 +36,4 @@ add_subdirectory(puzzle-14-02)
 add_subdirectory(puzzle-15-01)
 add_subdirectory(puzzle-15-02)
 add_subdirectory(puzzle-16-01)
+add_subdirectory(puzzle-16-02)
